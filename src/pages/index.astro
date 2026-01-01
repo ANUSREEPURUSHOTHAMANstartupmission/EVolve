@@ -1,0 +1,293 @@
+---
+import Layouts from "../layouts/Layout.astro"
+import Navbar from "../components/Navbar.svelte";
+
+---
+    <Layouts>
+
+        <div id="wrapper">
+                 <Navbar client:load></Navbar>
+
+        <div class="no-bottom no-top" id="content">
+
+
+            <section class="section-dark text-light no-top no-bottom position-relative relative overflow-hidden z-10">
+                <div class="v-center">
+                    <div class="swiper-inner" data-bgimage="url(images/slider/1.webp)">
+                        <div class="container h-full">
+                            <div class="flex md:flex-row flex-col gap-4 w-full  my-auto h-full items-center justify-center">
+                                <div class="md:w-2/3 w-full relative">     
+                                    <div class="sw-text-wrapper">
+                                        <h1 class=" text-5xl lg:text-9xl font-bold ">EVolve</h1>
+                                        <h3 class="slider-teaser mb-3">For  early stage innovators  in Electric Mobility/ EV Sectors</h3>
+                                    </div>
+                                    <div class="absolute">
+                                        <img src="/img/1.png" class="img-fluid lg:flex hidden" alt="">
+                                    </div>
+                                </div>
+                                <div class="md:w-1/3 w-full">
+                                    <div class="slider-extra">
+                                        <div>
+                                            <p>
+                                                The EV Innovation Cohort is a six month Incubation program designed to nurture early stage innovators working in the electric mobility sector. The program combines technical validation with startup ecosystem exposure.
+                                            </p>
+                                        </div>
+                                        <div class="spacer-30"></div>
+                                        <a class="btn-main mb10 mb-3" href="https://ksum.in/evolve" target="_blank">Application Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute bottom-0">
+                    <img src="/img/1.png" class="img-fluid lg:hidden flex" alt="">
+                </div>
+            </section>
+
+
+
+            <section id="timeline">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-8">
+                            <div class="subtitle bg-grey text-dark wow fadeInUp mb-3">Program Timeline</div>
+                        </div>
+                        <div class="col-lg-4 text-lg-end">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="mb-12 relative wow fadeInRight" data-wow-delay=".3s">
+                                <div class="absolute top-0 end-0">01</div>
+                                <i class="bg-color text-light fs-48 p-2 absolute id-color icofont-thunder-light rounded-10px"></i>
+                                <div class="pl-90">
+                                    <h3 class="text-xl"> Month 1 & 2</h3>
+                                    <p class="mb-0 text-lg">Orientation & Concept Validation</p>
+                                </div>
+                            </div>
+
+                            <div class="mb-6 relative wow fadeInRight" data-wow-delay=".5s">
+                                <div class="absolute top-0 end-0">02</div>
+                                <i class="bg-dark text-light fs-48 p-2 absolute id-color icofont-volume-mute rounded-10px"></i>
+                                <div class="pl-90">
+                                    <h4 class="text-xl">Month 3 & 4</h4>
+                                    <p class="mb-0 text-lg">Technical Development & Industry Exposure</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/misc/6.webp" class=" w-96 wow scaleIn" alt="">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="mb-6 relative wow fadeInLeft" data-wow-delay=".3s">
+                                <div class="absolute top-0 start-0">03</div>
+                                <i class="bg-color text-light fs-48 p-2 absolute end-0 id-color icofont-leaf rounded-10px"></i>
+                                <div class="pr-90">
+                                    <h4 class="text-end text-xl">Month 5 & 6</h4>
+                                    <p class="text-end mb-0 text-lg">Scale-up, Certification & Market Readiness</p>
+                                </div>
+                            </div>
+
+                            <div class="mb-6 relative wow fadeInLeft" data-wow-delay=".3s">
+                                <div class="absolute top-0 start-0">04</div>
+                                <i class="bg-dark text-light fs-48 p-2 absolute end-0 id-color icofont-road rounded-10px"></i>
+                                <div class="pr-90">
+                                    <h4 class="text-end text-xl">Final</h4>
+                                    <p class="text-end mb-0 text-lg">Demo Day & Graduation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="jarallax text-light pt30 pb30">
+                <img src="images/background/gradient-3.webp" class="jarallax-img" alt="">
+                <div class="wow fadeInRight d-flex">
+                  <div class="de-marquee-list wow">
+                    <div class="d-item">
+                      <span class="d-item-txt">EVolve – EV Innovation Cohort</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">EVolve – EV Innovation Cohort</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                     </div>
+                  </div>
+                </div>
+            </section>
+
+            
+
+            <section id="FocusAreas">
+                <div class="container">
+                    <div class="row align-items-center g-4 gx-5">
+                        <div class="col-lg-8">
+                            <h2 class="wow fadeInUp text-3xl font-bold">Focus areas in the EV Sector</h2>
+                        </div>
+                        <div class="col-lg-4 text-lg-end">
+                        </div>
+                        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 h-auto">
+                            <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">01</div>
+                                     <div class="bg-[#71ca00] w-20 h-20 p-2 rounded-2xl mb-6">
+                                        <img src="/img/f1.png">
+                                     </div>
+                                    <h4 class="font-bold text-lg">
+                                        Vehicle Design & Manufacturing:
+                                    </h4>
+                                    <p>
+                                         Covers all types of EVs such as two-wheelers, cars, commercial vehicles, buses, and specialty vehicles.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">02</div>
+                                    <div class="bg-[#71ca00] w-20 h-20 p-3 rounded-2xl mb-6">
+                                        <img src="/img/f2.png">
+                                    </div>
+                                     <h4 class="font-bold text-lg">
+                                        Battery Technologies:
+                                    </h4>
+                                    <p>
+                                         Includes innovation in battery chemistries (lithium-ion, solid-state, sodium-ion), battery management systems, recycling, and second-life battery applications.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">03</div>
+                                    <div class="bg-[#71ca00] w-20 h-20 p-3 rounded-2xl mb-6">
+                                        <img src="/img/f3.png">
+                                    </div>
+                                     <h4 class="font-bold text-lg">
+                                        Charging Infrastructure:
+                                    </h4>
+                                    <p>
+                                         Development of fast chargers, smart charging solutions, vehicle-to-grid (V2G) systems, and charging network platforms.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">04</div>
+                                     <div class="bg-[#71ca00] w-20 h-20 p-2 rounded-2xl mb-6">
+                                            <img src="/img/f4.png">
+                                    </div>
+                                    <h4 class="font-bold text-lg">
+                                        Power Electronics & Drive Systems:
+                                    </h4>
+                                    <p>
+                                         Involves powertrains, inverters, converters, motor controls, and thermal management.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">05</div>
+                                     <div class="bg-[#71ca00] w-20 h-20 p-3 rounded-2xl mb-6">
+                                            <img src="/img/f5.png">
+                                    </div>
+                                    <h4 class="font-bold text-lg">
+                                        Energy Storage & Management:
+                                    </h4>
+                                    <p>
+                                         Covers grid integration, hybrid energy storage, and systems for renewable energy integration.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">06</div>
+                                     <div class="bg-[#71ca00] w-20 h-20 p-3 rounded-2xl mb-6">
+                                            <img src="/img/f6.png">
+                                    </div>
+                                    <h4 class="font-bold text-lg">
+                                        Software & Connectivity:
+                                    </h4>
+                                    <p>
+                                         IoT, telematics, EV fleet management, autonomous and ADAS (advanced driver-assistance systems), smart mobility services, and mobile apps for energy/charging.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">07</div>
+                                     <div class="bg-[#71ca00] w-20 h-20 p-2.5 rounded-2xl mb-6">
+                                            <img src="/img/f7.png">
+                                    </div>
+                                    <h4 class="font-bold text-lg">
+                                         Recycling & Circular Economy:
+                                    </h4>
+                                    <p>
+                                        Solutions for battery material recovery, vehicle components reuse, and sustainable manufacturing.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">08</div>
+                                     <div class="bg-[#71ca00] w-20 h-20 p-3 rounded-2xl mb-6">
+                                            <img src="/img/f8.png">
+                                    </div>
+                                    <h4 class="font-bold text-lg">
+                                        Mobility & Shared Services:
+                                    </h4>
+                                    <p>
+                                         Platforms for ride-sharing, vehicle subscriptions, micro-mobility (e-bikes, scooters), last-mile logistics, and fleet solutions.
+
+                                    </p>
+                                </div>
+                            </div>
+                             <div class=" flex flex-col wow fadeInRight" data-wow-delay=".2s">
+                                <div class="relative">
+                                    <div class="absolute top-0 end-0">09</div>
+                                     <div class="bg-[#71ca00] w-20 h-20 p-3 rounded-2xl mb-6">
+                                            <img src="/img/f9.png">
+                                    </div>
+                                    <h4 class="font-bold text-lg">
+                                        Testing, Certification & Compliance:
+                                    </h4>
+                                    <p>
+                                         Labs and services for vehicle/component testing, homologation, cybersecurity, and standards conformance
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+        
+
+
+
+        </div>
+        <!-- content close -->
+        
+        <!-- footer begin -->
+        <footer class="section-dark">
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="de-flex">
+                                <div class="de-flex-col">
+                                    Copyright 2026 - Kerala Startup Mission
+                                </div>
+                                <ul class="menu-simple">
+                                    <li>Enquires write to : <a href="mailto:rink@startupmission.in">rink@startupmission.in</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+    </Layouts>
+
+
