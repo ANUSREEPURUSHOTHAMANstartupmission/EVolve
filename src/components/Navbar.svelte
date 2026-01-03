@@ -95,7 +95,7 @@
             </div>
         </div>
     </main>
-    <div class="flex flex-col items-center justify-center my-auto">
+    <div class="md:flex hidden flex-col items-center justify-center my-auto">
       <a class="btn-main" href="https://ksum.in/evolve" target="_blank">Application Open</a>
     </div>
    </div>
@@ -129,11 +129,11 @@
                         <a href="/"  class="page-scroll cursor-pointer  font-bold uppercase ">Home</a>
                     </li>
                     <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="/#About"  class="page-scroll cursor-pointer  font-bold uppercase  ">About</a>
+                      <a href="/#timeline"  class="page-scroll cursor-pointer  font-bold uppercase  ">Timeline</a>
                     </li>
                    
                      <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="/#Apply"  class="page-scroll cursor-pointer  font-bold uppercase ">Apply Now</a>
+                      <a href="/#FocusAreas"  class="page-scroll cursor-pointer  font-bold uppercase ">Focus Areas</a>
                     </li>
   
                     
