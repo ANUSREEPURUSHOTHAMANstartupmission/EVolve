@@ -59,7 +59,7 @@
     <div id="navbar"  class="fixed space-x-4  md:space-x-0 min-h-fit w-screen sm:min-h-0  left-0
    flex sm:items-center
     ease-in-out transition-all transform duration-300
-    z-[100]  py-2
+    z-[50]  py-2
            {scrolled ? 'bg-black text-white top-0 shadow-md' : 'bg-transparent text-white '}
 
 
