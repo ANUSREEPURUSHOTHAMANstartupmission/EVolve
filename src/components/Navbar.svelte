@@ -69,10 +69,11 @@
      
         <a href="/" >
           <img
-          src="{scrolled ? '/img/logo-white.svg' : '/img/logo-white.svg'}"
+          src="{scrolled ? '/img/logoevolve.svg' : '/img/logoevolve.svg'}"
           alt="logo"
           class="items-center justify-center  h-12"
-        /></a>
+        />
+      </a>
   
      </div>
   
@@ -120,7 +121,7 @@
   
     <div class="w-fit container mx-auto sm:items-center sm:justify-between">
         <div class="mb-8 gap-2  font-medium sm:bg-transparent p-5 sm:p-0 rounded-md flex items-center justify-center">
-            <img src="/img/logo.svg" alt="logo" class="md:h-14 h-12">
+            <img src="/img/logoevolve.svg" alt="logo" class="md:h-14 h-12">
   
         </div>
          <nav>
