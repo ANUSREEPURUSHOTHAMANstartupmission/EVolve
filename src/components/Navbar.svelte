@@ -71,7 +71,7 @@
           <img
           src="{scrolled ? '/img/logoevolve.svg' : '/img/logoevolve.svg'}"
           alt="logo"
-          class="items-center justify-center  h-12"
+          class="items-center justify-center  lg:h-16 h-12"
         />
       </a>
   
